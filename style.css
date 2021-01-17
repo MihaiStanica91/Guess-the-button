@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(161, 194, 231);
+  }
+  h1 {
+    color: rgb(228, 38, 38);
+    text-align: center;
+  } 
+  .container > div{
+      width: 250px;
+      height: 100px;
+      background: green;
+      text-align: center;
+      vertical-align: middle;
+      border: 1px solid;
+      line-height: 80px;
+  }
+  .container{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .button {
+    background-color: #e22222;
+    border: indigo;
+    border-style: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  h4 {
+    text-align: center;
+  } 
