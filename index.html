@@ -4,29 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="scripts.js"></script>
     <title>Guess the winning button</title>
 </head>
 <body>
     <h1>GUESS THE WINNING BUTTON</h1>
     <br>
     <br>
+    <p>How to play:</p>
+    <h3>
+        1. Enter the desired number of buttons of which only one will be the winner.
+        <br>
+        2. Press "Play" button.
+        <br>
+        3. Press the "Restart" button to start a new game.
+    </h3>
+    Number of Buttons: <input type="number" id="myNumber">
+    <button onclick="winnerButton()">Play</button>
+    <button onclick="restartGame()">Restart</button>
     <br>
     <br>
     <div class="container">
-        <div class="text-left">
-            <button class="button" id = "button" onclick="rightWrong()">Press me <br> I'm the winner</button>
-        </div>
-        <div class="text-center">
-            <button class="button" id = "button" onclick="rightWrong()">Press me <br> I'm the winner</button>
-        </div>
-        <div class="text-right">
-            <button class="button" id = "button" onclick="rightWrong()">Press me <br> I'm the winner</button>
-        </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <h4>TIP: The buttons are shuffled after each attempt!!!</h4>
+    <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
